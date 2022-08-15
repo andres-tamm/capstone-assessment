@@ -22,5 +22,11 @@ def users_with_most_tweets(tweets):
 
 
 
-tweets = read_file('farmers-protest-tweets-2021-2-4.json')
-users_with_most_tweets(tweets)
+
+
+def main():
+    tweets = read_file('farmers-protest-tweets-2021-2-4.json')
+    top10_tweets(tweets)
+    users_with_most_tweets(tweets)
+
+main()
